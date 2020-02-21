@@ -1,0 +1,15 @@
+%ANDROID_HOME%\platforms
+%ANDROID_HOME%\platform-tools
+
+\\192.168.4.195
+Downloads
+
+%JAVA_HOME%\bin
+
+C:\Android\Sdk\tools\bin
+
+sdkmanager --licenses
+
+C:\Users\admin.local\AppData\Roaming\npm\react-native init --version 0.60.6 Gufos
+
+C:\Users\admin.local\AppData\Roaming\npm\react-native run-android

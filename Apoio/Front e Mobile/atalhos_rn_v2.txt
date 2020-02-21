@@ -1,0 +1,30 @@
+192.168.7.85
+
+C:\Android\Sdk\tools\bin
+
+sdkmanager --licenses
+
+C:\Android\Sdk
+ANDROID_HOME
+jdk-1.8
+JAVA_HOME
+
+%JAVA_HOME%\bin
+%ANDROID_HOME%\platforms
+%ANDROID_HOME%\platform-tools
+
+C:\Users\cpf\AppData\Roaming\npm
+
+para criar o projeto react-native init, rodar o cmd como adm
+
+npm install -g react-native-cli
+
+
+
+C:\Users\admin.local\AppData\Roaming\npm\react-native init --version 0.60.6 Gufos
+
+C:\Users\cpf\AppData\Roaming\npm
+
+
+C:\Users\admin.local\AppData\Roaming\npm\react-native run-android
+

@@ -1,0 +1,52 @@
+fofuxos
+
+abrir android studio
+
+abrir avd
+
+abrir projeto do gufos no vscode
+
+abrir pasta do projeto
+C:\_github\2s2019-t2-sprint-4-mobile\manha\Gufos
+abrir pasta do npm
+C:\Users\cpf\AppData\Roaming\npm
+
+C:\Users\cpf\AppData\Roaming\npm\react-native run-android
+
+C:\Users\admin.local\AppData\Roaming\npm\react-native run-android
+
+npm install react-navigation
+
+npm install react-native-reanimated react-native-gesture-handler react-native-screens@^1.0.0-alpha.23
+
+pasta
+android/app
+arquivo -> build.gradle 
+seção -> dependencies
+
+implementation 'androidx.appcompat:appcompat:1.1.0-rc01'
+implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02'
+
+npm install react-navigation-tabs
+
+main -> alterar o layout da lista 
+profile -> incluir um nome estático - cor azul, fundo amarelo
+	-> incluir uma imagem
+
+cd android
+cd app
+Rodar o comando no cmd : 
+keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000
+
+incluir informações de nome -> senai, senai, sao paulo, sp, br
+
+cd ..
+cd ..
+
+C:\Users\cpf\AppData\Roaming\npm\react-native run-android
+
+
+
+
+
+
