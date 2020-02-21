@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Century Gothic', sans-serif, cursive;
+}
+
+
+.Login{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../../assets/img/background-login.png");
+    background-repeat: repeat;   
+    background-position: right;
+    /* background-position: center; */
+    background-size: contain;
+    height: 100vh;
+}
+
+.purple-half{
+    clip-path: polygon(0 0, 91% 0, 24% 100%, 0% 100%);
+    width: 95%;
+    background-color: #5E0A6E;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    padding: 2em 3em;
+}
+
+.form-half{
+    /* width: 85%; */
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: center;
+    align-content: center;
+}
+
+textarea:focus, input:focus, select:focus{  
+    outline: #5E0A6E solid 1px;
+    box-shadow: 2px 1px 5px #5E0A6E;
+  }
+
+
+.form-box{
+    height: 40%;
+    width: 30%;
+    background-color: #FFF; 
+    position: relative;
+    top: 32.5%;
+    right: 25vh;
+    border: 1px solid #260d6042;
+    border-radius: 10px;
+    box-shadow: 15px 7px 10px #260d6041 ;
+    padding: 1em 0;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.form-box h1{
+    color: #5E0A6E;
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: -1em;
+}
+
+.login-form{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    /* height: 10%; */
+    width: 80%;
+}
+
+.input-text-login{
+    padding: 1.2em 0.5em;
+    height: 1.5em;
+    border: 1px solid #A69797;
+    border-radius: 8px;
+    margin: 0.5em 0;
+}
+
+.submit{
+    color: #FFF;
+    font-size: 1.2em;
+    background-color: #5E0A6E;
+    border: 0.1px solid  #5E0A6E;
+    border-radius: 7px;
+    padding: 0.5em;
+    margin-top: 0.7em;
+    transition: ease-in-out 0.2s
+}
+
+.submit:hover{
+    box-shadow: 2px 2px 10px #5E0A6E;
+}
+
+
+.logo-principal{
+    position: relative;
+    top: 30%;
+    left: 12.5%;
+    height: 27.5%;
+    width: 40%;
+}
+
+
+.logo-senai{
+    width: 20%;
+    height: 5.5vh;
+    /* margin-left: 1em; */
+}
+
+.error-alert{
+    min-height: 20vh;
+    margin: auto;
+}
+

@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Century Gothic', sans-serif, cursive;
+}
+
+.Header{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5E0A6E;
+}
+
+.Header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout-button{
+    font-size: 1.2em;
+    width: 6.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    cursor: pointer;
+    height: 100%;
+}
+
+.container{
+    width: 90%;
+}
+
+.Home main{
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.Home h1{
+    font-size: 2.3em;
+    padding-top: 1em;
+    color: #260D60;
+}
+
+/* .header-icon{
+    max-height: 10vh;
+} */
+
+.logo{
+    height: 9vh;
+    margin-right: 7.5em;
+}
+
+
+.senai{
+    height: 4vh;
+}
+
+.logout-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 8%;
+}
+
+.logout-button p{
+    font-size: 1.2em;
+    margin-top: 0.8em;
+}
+
+.logout-button:hover{
+   color: #c183cc;
+   transition: ease 1s; 
+}
+
+.sair{
+    height: calc((12vh/100) * 45);
+    /* height: 5vh; */
+}
+
+.options{
+    margin: 1.5em 0 3em 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.option{
+    text-align: center;
+    width: 50%;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-bottom: 2px solid #E6E3E3;
+    transition: ease-in;
+    padding: 1em;
+    color: #706E74;
+}
+
+.selected{
+    color: #706E74;
+    font-weight: bolder;
+    border-bottom: 2px solid #B96BC7;
+    transition: ease-in-out 0.1s;
+}
+
+.tabela-usuarios thead{
+    background-color: #5E0A6E;
+    color: #FFF;
+    border: 1px solid #B96BC7;
+}
+
+.tabela-usuarios{
+    box-shadow: 10px 10px 10px #5E0A6E;
+}
+
+.rodape{
+    background-color: #A749BA;
+    margin: 0;
+    padding: 2em;
+}
+
+.infos{
+    color: #FFF;
+    margin: auto;
+    width: 30%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infos p{
+    width: 100%;
+    text-align: center;  
+}
+
+.bigger{
+    font-size: 1.75em;
+}
+
+.medium{
+    font-size: 1.2em;
+}
+
+.flex-textos{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+    
+.logo-senai-footer{
+    width: 40%;
+    margin-bottom: 0.5em;
+}
+
+.icon{
+    height: 2em;
+}
+
+
+.option-td{
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.decline-icon{
+    height:  2.5em;
+}
+
+.smaller-column{
+    width: 7.5%;
+}

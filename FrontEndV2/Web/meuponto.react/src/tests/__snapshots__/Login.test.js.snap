@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Compara tela de login ao snapshot 1`] = `
+<div
+  className="Login"
+>
+  <div
+    className="purple-half"
+  >
+    <img
+      className="logo-principal"
+      src="LogoMeuPonto.png"
+    />
+    <img
+      className="logo-senai"
+      src="senai-logo.png"
+    />
+  </div>
+  <div
+    className="form-box"
+  >
+    <h1>
+      Login
+    </h1>
+    <form
+      className="login-form"
+      onSubmit={[Function]}
+    >
+      <input
+        className="input-text-login"
+        maxLength="100"
+        minLength="3"
+        name="email"
+        onInput={[Function]}
+        placeholder="Email"
+        type="email"
+      />
+      <input
+        className="input-text-login"
+        maxLength="80"
+        minLength="8"
+        name="senha"
+        onInput={[Function]}
+        placeholder="Senha"
+        type="password"
+      />
+      <input
+        className="submit"
+        type="submit"
+        value="Entrar"
+      />
+    </form>
+  </div>
+</div>
+`;
